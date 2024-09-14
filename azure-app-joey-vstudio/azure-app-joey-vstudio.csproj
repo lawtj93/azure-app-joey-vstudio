@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_joey_vstudio</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/5f285b35-f303-41ed-9bc5-a7da2bca1810/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-joey-vstudio</ApplicationInsightsResourceId>
+    <UserSecretsId>f3ec4311-6273-4980-9d38-01a4060b75b1</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
